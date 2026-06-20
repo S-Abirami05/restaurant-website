@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie's Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h1>🍽 Foodie's</h1>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="floating-icons">
+            <span>🍕</span>
+            <span>🍔</span>
+            <span>🍟</span>
+            <span>🥤</span>
+            <span>🌮</span>
+        </div>
+        <h2 id="typing-text"></h2>
+        <p>Delicious Food | Fresh Ingredients | Great Experience</p>
+        <button id="orderBtn">Order Now</button>
+    </section>
+    <input type="text" id="searchInput" placeholder="🔍 Search Food..." class="search-bar">
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-container">
+            <div class="card">
+                <img src="images/French Fries.png" alt="French Fries">
+                <h3>French Fries</h3>
+                <div class="rating">⭐⭐⭐⭐☆ (4.4 • 210 Reviews)</div>
+                <p class="price">₹99</p>
+                <button class="cart-btn">Add to Cart</button>
+            </div>
+
+            <div class="card">
+                <img src="images/Fried Chicken.png" alt="Fried Chicken">
+                <h3>Fried Chicken</h3>
+                <div class="rating">⭐⭐⭐⭐⭐ (4.7 • 290 Reviews)</div>
+                <p class="price">₹249</p>
+                <button class="cart-btn">Add to Cart</button>
+            </div>
+
+            <div class="card">
+                <img src="images/Cheese Pizza.png" alt="Cheese Pizza">
+                <h3>Cheese Pizza</h3>
+                <div class="rating">⭐⭐⭐⭐⭐ (4.9 • 410 Reviews)</div>
+                <p class="price">₹349</p>
+                <button class="cart-btn">Add to Cart</button>
+            </div>
+
+            <div class="card">
+                <img src="images/Double Burger.png" alt="Double Burger">
+                <h3>Double Burger</h3>
+                <div class="rating">⭐⭐⭐⭐☆ (4.5 • 190 Reviews)</div>
+                <p class="price">₹229</p>
+                <button class="cart-btn">Add to Cart</button>
+            </div>
+
+            <div class="card">
+                <img src="images/Sandwich.png" alt="Sandwich">
+                <h3>Sandwich</h3>
+                <div class="rating">⭐⭐⭐⭐☆ (4.2 • 140 Reviews)</div>
+                <p class="price">₹129</p>
+                <button class="cart-btn">Add to Cart</button>
+            </div>
+
+            <div class="card">
+                <img src="images/Chicken biriyani.png" alt="Chicken Biryani">
+                <h3>Chicken Biryani</h3>
+                <div class="rating">⭐⭐⭐⭐⭐ (4.8 • 520 Reviews)</div>
+                <p class="price">₹279</p>
+                <button class="cart-btn">Add to Cart</button>
+            </div>
+
+            <div class="card">
+                <img src="images/Hakka Noodles.png" alt="Hakka Noodles">
+                <h3>Hakka Noodles</h3>
+                <div class="rating">⭐⭐⭐⭐☆ (4.3 • 180 Reviews)</div>
+                <p class="price">₹169</p>
+                <button class="cart-btn">Add to Cart</button>
+            </div>
+
+            <div class="card">
+                <img src="images/Tacos.png" alt="Tacos">
+                <h3>Tacos</h3>
+                <div class="rating">⭐⭐⭐⭐⭐ (4.6 • 240 Reviews)</div>
+                <p class="price">₹199</p>
+                <button class="cart-btn">Add to Cart</button>
+            </div>
+
+            <div class="card">
+                <img src="images/Ice Cream.png" alt="Ice Cream">
+                <h3>Ice Cream</h3>
+                <div class="rating">⭐⭐⭐⭐☆ (4.4 • 160 Reviews)</div>
+                <p class="price">₹89</p>
+                <button class="cart-btn">Add to Cart</button>
+            </div>
+
+            <div class="card">
+                <img src="images/Cold Coffee.png" alt="Cold Coffee">
+                <h3>Cold Coffee</h3>
+                <div class="rating">⭐⭐⭐⭐⭐ (4.7 • 300 Reviews)</div>
+                <p class="price">₹119</p>
+                <button class="cart-btn">Add to Cart</button>
+            </div>
+
+            <div class="card">
+                <img src="images/Chocolate Cake.png" alt="Chocolate Cake">
+                <h3>Chocolate Cake</h3>
+                <div class="rating">⭐⭐⭐⭐⭐ (4.9 • 450 Reviews)</div>
+                <p class="price">₹149</p>
+                <button class="cart-btn">Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="images/panipuri.png" alt="Pani Puri">
+                <h3>Pani Puri</h3>
+                <div class="rating">⭐⭐⭐⭐☆ (4.5 • 220 Reviews)</div>
+                <p class="price">5 items - ₹20</p>
+                <button class="cart-btn">Add to Cart</button>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="gallery">
+        <h2>Food Gallery</h2>
+
+        <div class="gallery-container">
+            <img src="https://picsum.photos/300?1" alt="">
+            <img src="https://picsum.photos/300?2" alt="">
+            <img src="https://picsum.photos/300?3" alt="">
+            <img src="https://picsum.photos/300?4" alt="">
+        </div>
+    </section>
+    <section class="testimonials">
+
+        <h2>Customer Reviews</h2>
+
+        <div class="menu-container">
+
+            <div class="card">
+                <h3>Kevin</h3>
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>Amazing food and quick service.</p>
+            </div>
+
+            <div class="card">
+                <h3>Varshan</h3>
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>Best pizza in town!</p>
+            </div>
+
+            <div class="card">
+                <h3>Bhavi</h3>
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>Highly recommended restaurant.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+
+        <p>
+            At Foodie's Restaurant, we believe that every meal should be a memorable experience.
+            Our chefs prepare delicious dishes using fresh ingredients and authentic recipes.
+            We are committed to delivering quality food, excellent service, and a welcoming atmosphere.
+            Whether dining with family or friends, we ensure comfort and satisfaction in every visit.
+            Experience the perfect blend of taste, quality, and hospitality at Foodie's Restaurant.
+        </p>
+    </section>
+
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 Foodie's Restaurant</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
